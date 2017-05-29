@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+
+.navbar {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    float: none;
+    width: 100%;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.container-main {
+    display:table;
+    width: 100%;
+    margin-top: -50px;
+    padding-top: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.sidebar {
+    display: table-cell;
+    background-color: #efefef;
+    border-right : 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.float-none {
+    float: none;
+}
+
+.posts {
+    display: table-cell;
+    height: 100%;
+    min-height: 100% !important;
+}
+
+
+
+.span4 {
+    width: 100%;
+    margin: 20px 5px 20px 5px;
+}
+
+.postarea {
+    margin: 10px 0 10px 0;
+    height : 60%;
+      -webkit-transition: all 0.5s ease-in-out;
+    resize: none;
+}
+
+.postarea:hover, .postarea:focus {
+    height : 100%;
+      -webkit-transition: all 0.8s ease-in-out;
+}
+
+.post-container {
+    padding: 30px;
+}
+
+.panel-body {
+    font-size: 18px;
+    word-break: break-all;
+    min-height: 80px;
+}
+
+/* ------------------------------------------------------ */
+
+.container-edit {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}

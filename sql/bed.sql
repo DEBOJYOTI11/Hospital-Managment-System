@@ -1,0 +1,5 @@
+create table BED(
+	BEDID int AUTO_INCREMENT PRIMARY KEY,
+	CLASS CHAR NOT NULL,
+	PRICE float
+)

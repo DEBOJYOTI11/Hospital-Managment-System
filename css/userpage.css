@@ -1,0 +1,22 @@
+.stats-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 3px;
+}
+
+.stats-count {
+    font-weight: bold;
+    font-size: bold;
+    font-size: 22px;
+    color: #188FFF;
+    margin-bottom: 3px;
+}
+
+.stats {
+    padding: 50px 0 0 0;
+    width: 33.3%;
+    float: left;
+    display: inline;
+}
